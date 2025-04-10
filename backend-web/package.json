@@ -1,0 +1,29 @@
+{
+  "name": "backend-web",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "dev": "node src/app.js",
+    "build": "echo \"Error: no build specified\" && exit 1",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@eslint/js": "^9.24.0",
+    "eslint": "^9.24.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.6",
+    "globals": "^16.0.0",
+    "prettier": "^3.5.3"
+  },
+  "dependencies": {
+    "backend-web": "file:",
+    "express": "^5.1.0"
+  }
+}
